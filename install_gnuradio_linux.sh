@@ -40,8 +40,8 @@ apt-get install -y gnuradio
 # 安装完成后验证安装
 echo "验证 GNU Radio 安装..."
 if command -v gnuradio-companion &> /dev/null; then
-    echo "GNU Radio 安装成功！"
-    echo "你可以通过运行 'gnuradio-companion' 启动图形界面。"
+    echo "Ensonic 依赖包 GNU Radio 安装成功！"
+#    echo "你可以通过运行 'gnuradio-companion' 启动图形界面。"
 else
     echo "安装似乎有问题，GNU Radio 未正确安装。"
 fi
